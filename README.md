@@ -1,7 +1,9 @@
+# LinClust
 # Language: C++
 # Input: FASTA
 # Output: prefix
-# Tested with: PluMA 1.0, GCC 4.8.4
+# Tested with: PluMA 1.1, GCC 4.8.4
+# Dependency: mmseqs2 dd3ff63a59f92a224710c7912fd9171621405190
 
 PluMA plugin to run the linear time clustering algorithm LinClust (Steinegger and Soding, 2018)
 on a set of sequences.
